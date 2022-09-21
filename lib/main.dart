@@ -1,4 +1,5 @@
 import 'package:apimodel/home.dart';
+import 'package:apimodel/services/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homeapp(),
+      home: Splashscreen(),
     );
   }
 }

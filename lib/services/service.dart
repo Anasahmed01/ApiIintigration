@@ -14,38 +14,3 @@ getuser() async {
   }
   return userlist;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var url = Uri.parse("https://jsonplaceholder.typicode.com/users");
-//   var response = await http.get(url);
-//   var data = jsonDecode(response.body);
-//   List<apimodel> userlist = [];
-
-//   for (var i in data) {
-//     userlist.add(apimodel.fromJson(i));
-//   }
-//   return userlist;
